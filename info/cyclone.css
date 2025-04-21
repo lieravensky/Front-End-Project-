@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding-bottom: 80px;
+  }
+  
+  .header-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-credit {
+    font-size: 12px;
+    padding: 8px;
+    color: #666;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  .tag {
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .author {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  .article p {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  
+  .article a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #eee;
+    border-radius: 50%;
+    font-weight: bold;
+  }
+  
+  .pagination button:disabled {
+    background: #007BFF;
+    color: white;
+  }
+  
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  
+  .nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .nav-item.active {
+    color: #007BFF;
+  }
+  
+  .nav-item span {
+    display: block;
+    font-size: 12px;
+  }
+  
